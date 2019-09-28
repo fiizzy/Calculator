@@ -1,0 +1,54 @@
+body{
+  background:rgb(245, 245, 245);
+}
+div.calc-box{
+  background: rgba(255, 255, 255, 0.842);
+  padding:20px;
+  display:flex;
+  justify-content:center;
+  align-content: center;
+  box-shadow: 1px 2px 10px rgba(0, 0, 0, 0.9);
+  border-radius:5px;
+  flex-wrap: wrap;
+  width:500px;
+  margin:10px auto;
+  flex-direction: column;
+  text-align: center;
+  position:relative;
+}
+
+input.btn{
+  padding:15px 30px;
+  background: rgb(71, 157, 255);
+  border-radius:10px;
+  border:0px solid rgb(0, 102, 109);
+  box-shadow: 1px 2px 10px rgba(0, 0, 0, 0.6);
+  margin-top:20px;
+  color:white;
+}
+input.task{
+  padding:15px 30px;
+  padding-left:5px;
+  flex-grow: 1;
+  background: rgb(223, 223, 223);
+  border:0px solid rgb(0, 102, 109);
+  border-radius:2px;
+  width:100%;
+  margin: 5px auto;
+  box-sizing: border-box;
+  font-size: 1.2rem;
+  height: 50px;
+  padding:10px;
+  color:white;
+
+}
+
+@media only screen and (max-width: 600px) {
+  div.calc-box{
+    width:100%;
+    box-sizing: border-box;
+  }
+  img.todoImage{
+    width: 50%;
+    top:300px;  }
+}
